@@ -16,3 +16,4 @@ def dictionary(word)
   when "and"
     "&"
 end
+end
