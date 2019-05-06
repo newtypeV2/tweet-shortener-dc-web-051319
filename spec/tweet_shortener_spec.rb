@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+require 'pry'
 describe 'tweet shortener' do
 
   let(:tweet_one)   {"Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"}
@@ -63,5 +63,5 @@ describe 'tweet shortener' do
       expect(shortened_tweet_truncator(tweet_one_short).length).to be == tweet_one_short.length 
     end
   end
-
+binding.pry
 end
