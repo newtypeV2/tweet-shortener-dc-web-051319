@@ -36,6 +36,7 @@ def selective_tweet_shortener(inpTweet)
 end
 end
 
-def shortened_tweet_truncator
+def shortened_tweet_truncator(inpTweet)
+  
   
 end
