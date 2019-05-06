@@ -1,19 +1,17 @@
 # Write your code here.
 def dictionary(word)
   replacement = {
-    "hi" => "hello",
-    "2" => ["to","two","too"],
-    "4" => ["for","four"],
-    "b" => "be",
-    "u" => "you",
-    "@" => "at",
-    "&" => "and"
+    "hi":"hello",
+    "2":["to","two","too"],
+    "4":["for","four"],
+    "b":"be",
+    "u":"you",
+    "@":"at",
+    "&":"and"
   }
 replacement.each{|x,y| 
 if y.is_a? Array
-y.each{|a| if ((word.casecmp a)==0) x end}
 else
-  if ((word.casecmp a)==0) x end
 end
 }
 end
