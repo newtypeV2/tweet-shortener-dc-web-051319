@@ -37,6 +37,6 @@ end
 end
 
 def shortened_tweet_truncator(inpTweet)
-  
+  if inpTweet.length>140
   
 end
