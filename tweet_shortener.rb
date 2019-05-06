@@ -28,7 +28,7 @@ def bulk_tweet_shortener(inpArray)
   inpArray.collect{ |a| puts word_substituter(a)}
 end
 
-def selective_tweet_shortner(inpTweet)
+def selective_tweet_shortener(inpTweet)
   if inpTweet.length>140
   word_substituter(inpTweet)
   else
