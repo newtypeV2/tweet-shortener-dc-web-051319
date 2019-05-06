@@ -21,6 +21,8 @@ def dictionary(word)
     "@"
   when "and"
     "&"
+  else
+  word
 end
 end
 
