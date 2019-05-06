@@ -6,7 +6,7 @@ def dictionary(word)
   when "to" || "two" || "too"
     2.to_s
   when "for" || "four"
-    "4"
+    4.to_s
   when "be"
     "b"
   when "you"
