@@ -10,8 +10,7 @@ def dictionary(word)
     "&":"and"
   }
 replacement.each{|x,y| 
-if y.is_a? Array
-else
+if (word.casecmp y)==0
 end
 }
 end
