@@ -32,5 +32,5 @@ def word_substituter(inpString)
 end
 
 def bulk_tweet_shortener(inpArray)
-  inpArray.each{ |tweet| tweet=word_substituter(tweet) puts tweet}
+  inpArray.each{ |tweet| tweet=word_substituter(tweet) puts "#{tweet}"}
 end
