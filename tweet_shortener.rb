@@ -11,8 +11,6 @@ def dictionary(word)
   }
 
 end
-}
-end
 
 def word_substituter(inpString)
   inpString.split(" ").collect{ |words|
