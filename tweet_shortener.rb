@@ -2,7 +2,7 @@
 def dictionary(word)
   case word
   when "hello"
-    hi
+    "hi"
   when "to" || "two" || "too"
     "2"
   when "for" || "four"
