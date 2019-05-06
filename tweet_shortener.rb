@@ -23,3 +23,5 @@ def dictionary(word)
     "&"
 end
 end
+
+def 
