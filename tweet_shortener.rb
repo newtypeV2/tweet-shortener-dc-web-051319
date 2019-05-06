@@ -2,11 +2,9 @@
 def dictionary(word)
   replacement = {
     "hi":"hello",
-    "2":"to",
-    "2":"two",
-    "2":"too",
-    "4":"for"
-    "4":"four",
+    "2":["to","two","too"],
+    "2":["to","two","too"],
+    "4":["for","four"],
     "b":"be",
     "u":"you",
     "@":"at",
