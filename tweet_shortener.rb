@@ -3,10 +3,16 @@ def dictionary(word)
   case word
   when "hello"
     "hi"
-  when "to" || "two" || "too"
-    
-  when "for" || "four"
-    4.to_s
+  when "to"
+    "2"  
+  when "two"
+    "2"  
+  when "too"
+    "2"  
+  when "for"
+    "4"
+  when "four"
+    "4"
   when "be"
     "b"
   when "you"
