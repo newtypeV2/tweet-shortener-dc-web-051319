@@ -29,8 +29,11 @@ def bulk_tweet_shortener(inpArray)
 end
 
 def selective_tweet_shortner(inpTweet)
-  if inpTweet.length<140
-  
+  if inpTweet.length>140
+  word_substituter(inpTweet)
+  else
+  inpTweet
+end
 end
 
 def shortened_tweet_truncator
