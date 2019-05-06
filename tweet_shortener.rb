@@ -13,7 +13,7 @@ replacement.each{|x,y|
 if y.is_a? Array
 y.each{|a| if (word.casecmp a)==0 puts x else word end}
 else
-  if (word.casecmp a)==0 puts x} else word end
+  if (word.casecmp a)==0 puts x else word end
 end
 }
 end
