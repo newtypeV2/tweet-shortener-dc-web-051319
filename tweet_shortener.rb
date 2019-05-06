@@ -30,3 +30,6 @@ def word_substituter(inpString)
   inpString.split(" ").collect{ |a|
   a=dictionary(a)}.join(" ")
 end
+
+def bulk_tweet_shortener()
+end
