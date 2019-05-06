@@ -42,4 +42,5 @@ def shortened_tweet_truncator(inpTweet)
     shortenedTweet[0.137]+"..."
   else
     shortenedTweet
+  end
 end
