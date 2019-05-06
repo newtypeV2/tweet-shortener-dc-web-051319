@@ -27,9 +27,10 @@ end
 end
 
 def word_substituter(inpString)
-  inpString.split(" ").collect{ |a|
-  a=dictionary(a)}.join(" ")
+  inpString.split(" ").collect{ |words|
+  words=dictionary(words)}.join(" ")
 end
 
-def bulk_tweet_shortener()
+def bulk_tweet_shortener(inpArray)
+  inpArray.collect{ |tweet| tweet=word_substituter(tweet)}
 end
