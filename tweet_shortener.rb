@@ -16,7 +16,7 @@ if replacement[word.downcase]==nil
   word
 else
   replacement[word.downcase]
-
+end
 end
 
 def word_substituter(inpString)
