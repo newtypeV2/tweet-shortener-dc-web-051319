@@ -1,4 +1,5 @@
 # Write your code here.
+require pry
 def dictionary(word)
   case word
   when "hello"
