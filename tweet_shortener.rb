@@ -27,6 +27,6 @@ end
 end
 
 def word_substituter(inpString)
-  inpString.split(" ").collec{ |a|
+  inpString.split(" ").collect{ |a|
   a=dictionary(a)}.join(" ")
 end
