@@ -16,7 +16,6 @@ else
   if (word.casecmp a)==0 puts "#{x}" end
 end
 }
-  
 end
 
 def word_substituter(inpString)
