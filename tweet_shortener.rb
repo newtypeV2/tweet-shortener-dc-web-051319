@@ -2,8 +2,8 @@
 def dictionary(word)
   replacement = {
     "hi":"hello",
-    "2":"to"
-    "2":"two"
+    "2":"to",
+    "2":"two",
     "2":"too",
     "4":"for"
     "4":"four",
