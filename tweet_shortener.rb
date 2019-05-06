@@ -24,4 +24,6 @@ def dictionary(word)
 end
 end
 
-def 
+def word_substituter(inpString)
+  
+end
