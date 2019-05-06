@@ -32,5 +32,5 @@ def word_substituter(inpString)
 end
 
 def bulk_tweet_shortener(inpArray)
-  inpArray.collect{ |tweet| tweet=word_substituter(tweet)}
+  inpArray.collect{ |a| a=word_substituter(tweet)}
 end
