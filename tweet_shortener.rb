@@ -9,8 +9,7 @@ def dictionary(word)
     "@":"at",
     "&":"and"
   }
-replacement.each{|x,y| 
-if (word.casecmp y)==0
+
 end
 }
 end
