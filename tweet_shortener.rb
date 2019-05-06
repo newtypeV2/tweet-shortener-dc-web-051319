@@ -25,5 +25,5 @@ end
 end
 
 def word_substituter(inpString)
-  
+  inp
 end
