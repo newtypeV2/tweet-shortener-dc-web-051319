@@ -11,9 +11,9 @@ def dictionary(word)
   }
 replacement.each{|x,y| 
 if y.is_a? Array
-y.each{|a| if (word.casecmp a)==0 puts "#{x}" else word end}
+y.each{|a| if (word.casecmp a)==0 puts x else word end}
 else
-  if (word.casecmp a)==0 puts "#{x}" end
+  if (word.casecmp a)==0 puts x} else word end
 end
 }
 end
