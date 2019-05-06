@@ -9,7 +9,13 @@ def dictionary(word)
     "@" => "at",
     "&" => "and"
   }
-  
+replacement.each{|x,y| 
+if y.is_a? Array
+y.each{|a| if word"}
+else
+puts "#{x}--#{y}"
+end
+}
   
 end
 
