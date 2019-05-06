@@ -27,3 +27,7 @@ end
 def bulk_tweet_shortener(inpArray)
   inpArray.collect{ |a| puts word_substituter(a)}
 end
+
+def selective_tweet_shortner
+  
+end
