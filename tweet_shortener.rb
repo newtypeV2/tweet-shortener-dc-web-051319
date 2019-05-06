@@ -4,7 +4,7 @@ def dictionary(word)
   when "hello"
     "hi"
   when "to" || "two" || "too"
-    "2"
+    2.to_s
   when "for" || "four"
     "4"
   when "be"
