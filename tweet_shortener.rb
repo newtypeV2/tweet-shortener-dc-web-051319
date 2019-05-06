@@ -1,19 +1,18 @@
 # Write your code here.
 def dictionary(word)
-  case word
-  when "hello"
+  if "hello"
     "hi"
-  when "to" || "two" || "too"
+  elsif "to" || "two" || "too"
     2.to_s
-  when "for" || "four"
+  elsif "for" || "four"
     4.to_s
-  when "be"
+  elsif "be"
     "b"
-  when "you"
+  elsif "you"
     "u"
-  when "at"
+  elsif "at"
     "@"
-  when "and"
+  elsif "and"
     "&"
 end
 end
