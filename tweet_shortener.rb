@@ -31,3 +31,7 @@ end
 def selective_tweet_shortner
   
 end
+
+def shortened_tweet_truncator
+  
+end
