@@ -12,6 +12,10 @@ def dictionary(word)
   "at"=>"@",
   "and"=>"&"
   }
+if replacement[word]==nil
+  word
+else
+  replacement[word]
 
 end
 
