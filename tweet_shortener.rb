@@ -12,10 +12,10 @@ def dictionary(word)
   "at"=>"@",
   "and"=>"&"
   }
-if replacement[word]==nil
+if replacement[word.downcase]==nil
   word
 else
-  replacement[word]
+  replacement[word.downcase]
 
 end
 
